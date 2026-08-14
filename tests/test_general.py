@@ -152,6 +152,7 @@ def test_crear_item_sin_token():
 
     assert response.status_code == 401
 
+# EJERCICIO 3 - PROTECCIÓN GLOBAL
 
 def test_listar_items_sin_token():
     FAKE_DB.clear()
